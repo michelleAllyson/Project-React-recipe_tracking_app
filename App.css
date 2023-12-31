@@ -22,6 +22,10 @@ h1 {
 
 /* typography */
 
+tbody tr:nth-child(odd) {
+  background-color: #fff0c7;
+}
+
 html {
   font-family: 'helvetica neue', sans-serif;
 }
@@ -65,3 +69,10 @@ table {
 
 
 /* Column size for tbody */
+td:nth-child(4), td:nth-child(5) {
+  width: 30%;
+}
+
+td:not(:nth-child(4)):not(:nth-child(5)) {
+  width: 10%;
+}
