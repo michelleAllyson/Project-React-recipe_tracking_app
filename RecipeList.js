@@ -33,7 +33,7 @@ function RecipeList({ recipes, deleteRecipe}) {
                 index={index}
                 deleteRecipe={deleteRecipe} 
               />
-            ))}
+             ))}
         </tbody>
       </table>
     </div>
